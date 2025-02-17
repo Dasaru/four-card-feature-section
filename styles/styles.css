@@ -47,6 +47,7 @@ body {
 header {
   height: 16.1rem;
   margin: 5.3rem 0;
+  text-align: center;
 }
 
 .header__pre-title {
@@ -135,6 +136,44 @@ main {
 }
 
 /***** Desktop *****/
+
+@media screen and (min-width: 90rem) {
+  body {
+    align-items: center;
+  }
+
+  header {
+    width: 54rem;
+  }
+
+  .header__pre-title {
+    font-size: 3.6rem;
+  }
+
+  .header__title {
+    font-size: 3.6rem;
+  }
+
+  .header__description {
+    font-size: 1.5rem;
+  }
+
+  main {
+    width: 111rem;
+    height: 53rem;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 35rem;
+    height: 25rem;
+  }
+
+  .card:first-child,
+  .card:last-child {
+    margin-top: 12.5rem;
+  }
+}
 
 /***** Footer *****/
 .attribution {
