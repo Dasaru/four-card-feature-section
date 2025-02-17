@@ -84,6 +84,7 @@ main {
   position: relative;
   padding: var(--card-padding);
   box-shadow: 0 0.8rem 1.2rem hsl(234, 12%, 34%, 0.2);
+  background-color: white;
 }
 
 .card::before {
