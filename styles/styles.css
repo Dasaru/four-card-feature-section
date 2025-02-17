@@ -42,6 +42,7 @@ body {
   flex-direction: column;
   padding: 3.2rem;
   color: #4d4f62;
+  background-color: #fafafa;
 }
 
 header {
@@ -144,6 +145,7 @@ main {
 
   header {
     width: 54rem;
+    margin-top: 8rem;
   }
 
   .header__pre-title {
